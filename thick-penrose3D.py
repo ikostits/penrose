@@ -3,12 +3,12 @@ import math
 import time
 
 # Default unit distance between the vertices of the tiling is 1mm
-# Use `scale` to increase the size of the cells
+# Use `scale` to increase the length of struts
 scale = 6.0
 
 # All the following values will be multiplied by `scale`
 t = 0.1                 # Diameter of the inscribed circle in the cross-section 
-                        # of the strut (as a fraction of unit distance)
+                        # of the strut (as a fraction of strut length)
                         # = strut width
 trim = 2                # Trim the `trim` length off the 
                         # sides of the tiling
